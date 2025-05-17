@@ -162,7 +162,7 @@ function App() {
               {results.map((item, index) => (
                 <div key={index} className="flex justify-between border-b pb-2">
                   <span>{item.candidate}</span>
-                  <span className="font-bold">{item.voteCount.toString()} suara</span>
+                  <span className="font-bold">{item.voteCount.toString} suara</span>
                 </div>
               ))}
             </div>
